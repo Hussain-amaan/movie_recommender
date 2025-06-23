@@ -1,0 +1,8 @@
+# .gitignore
+data/cleaned_tmdb.csv
+data/similarity_matrix.pkl
+__pycache__/
+*.pkl
+*.pyc
+.DS_Store
+.env
