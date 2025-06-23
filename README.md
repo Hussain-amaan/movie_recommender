@@ -1,13 +1,7 @@
-
-## 📄 `README.md`
-
-```markdown
 # 🎬 TMDB Movie Recommender App
 
-A content-based movie recommendation system built with **NLP (TF-IDF + Cosine Similarity)** and deployed using **Streamlit**.
+A content-based movie recommendation system built with **NLP (TF-IDF + Cosine Similarity)** and deployed using **Streamlit**.  
 It suggests movies similar in plot and genre using the TMDB movie dataset.
-
-
 
 ---
 
@@ -21,20 +15,28 @@ It suggests movies similar in plot and genre using the TMDB movie dataset.
 
 ---
 
+
+
 ## 🗂️ Project Structure
 
-
 movie_recommender/
-├── app.py ← Streamlit app
-├── precompute.py ← One-time preprocessing script
-├── top_movies.csv ← Raw dataset
-├── cleaned_tmdb.csv ← Cleaned dataset (generated)
-├── similarity_matrix.pkl ← Pickled similarity matrix (generated)
+
+├── app.py # Streamlit app
+
+├── precompute.py # One-time preprocessing script
+
+├── top_movies.csv # Raw dataset
+
+├── cleaned_tmdb.csv # Cleaned dataset (generated)
+
+├── similarity_matrix.pkl # Pickled similarity matrix (generated)
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
-```
 
 ---
 
